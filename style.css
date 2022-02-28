@@ -1,19 +1,29 @@
 
 body {
   background-color: rgb(204, 205, 255);
+  font-family: serif;
+  font-weight: bold;
 }
 
 h1 {
-  color: white;
+  color: Balck;
   border-style: solid;
-  border-color: skyblue;
+  border-color: purple;
+font-family: serif;
 }
+
 .button {
-  background-color:purple; /* Green */
-  color: blue;
-  padding: 15px 32px;
+  background-color: rgb(204, 205, 255); 
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+  border-color: purple;
+  padding: 15px 20px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
+  transition-duration: 0.5s;
 }
+
+.button:hover {
+  background-color:purple; 
+  color: white;
